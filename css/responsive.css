@@ -1,0 +1,155 @@
+@media (max-width:780px){
+
+#skill{
+  background-image: none;
+}
+#contact{
+  background-image: none;
+}
+#works{
+  background-image: none;
+}
+#about{
+  background-image: none;
+}
+
+.container{
+    width: 100%;
+}
+
+.header-left h1{
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding-left: 20px;
+}
+
+header{
+    padding-top: 10px;
+}
+
+.header-right{
+    margin-left: auto;
+    padding: 5px 30px 0 0;
+}
+
+.nav-list{
+    display: none;
+}
+
+.main{
+  display: none;
+}
+
+.text-wrapper-r{
+    position: absolute;
+    font-size: 15px;
+    left: 20%;
+    text-transform: uppercase;
+}
+
+.main-r{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+
+.my-photo{
+    display: none;
+}
+
+.contents{
+    display: block;
+}
+
+.about-text{
+    font-size: 18px;
+    width: 70%;
+    margin: 0 auto;
+    padding: 0 10%;
+    background-color: rgb(219, 239, 248);
+}
+
+.message{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.skill-content{
+    width: 80%;
+    padding: 0 10%;
+}
+
+.skill-text{
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.work-contents img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.work-slider p{
+    text-align: center;
+    font-size: 10px;
+}
+
+.about-text p{
+    font-size: 15px;
+    text-align: left;
+    padding: 10px 3px;
+    width: 100%;
+}
+
+.about-img{
+    width: 100%;
+}
+
+.skill-textbox{
+    text-align: left;
+    padding: 0 10% 0 10%;
+}
+
+.skill-contents{
+    width: 100%;
+    display: inline-block;
+}
+
+.skill-text p{
+    text-align: center;
+}
+
+.skill-contents h2{
+    text-align: center;
+}
+
+.work-contents-illustration p{
+    font-size: 15px;
+}
+
+}
+
+@media (min-width:780px){
+    .table{
+        display: none;
+    }
+
+    .main-r{
+        display: none;
+    }
+
+    .hamburger{
+        display: none;
+    }
+
+    .globalMenuSp{
+        display: none;
+    }
+}
