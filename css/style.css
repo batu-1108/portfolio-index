@@ -186,6 +186,19 @@ h1{
     width: 100%;
 }
 
+.again{
+    padding-right: 10%;
+}
+
+.breadcrumbcrumb ul li{
+    float: left;
+    margin: 30px 5px 30px 15px;
+}
+
+.breadcrumbcrumb ul li a:hover{
+    text-decoration: underline;
+}
+
 /* 基本レイアウト ここまで↑ */
 
 /* トップページ ここから↓ */
@@ -304,6 +317,8 @@ html, body {
 
 .all-view a{
     color: white;
+    width: 100%;
+    padding: 0 0;
 }
 
 .all-view{
