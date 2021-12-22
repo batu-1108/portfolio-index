@@ -42,9 +42,9 @@ header{
 
 .text-wrapper-r{
     position: absolute;
-    font-size: 15px;
+    font-size: 10px;
     left: 20%;
-    text-transform: uppercase;
+    top:35%
 }
 
 .main-r{
