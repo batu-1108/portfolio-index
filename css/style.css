@@ -319,6 +319,7 @@ html, body {
     color: white;
     width: 100%;
     padding: 0 0;
+    background-image: linear-gradient(135deg, #6c8b3c 0%, #fdfafad8 100%);
 }
 
 .all-view{
@@ -326,10 +327,9 @@ html, body {
     margin-right: 10%;
     margin-top: 20px;
     padding: 10px 10px;
-    background-image: linear-gradient(135deg, #6c8b3c 0%, #fdfafad8 100%);
 }
 
-.all-view:hover{
+.all-view a:hover{
     background-image: linear-gradient(135deg, #538804 0%, #7a7a7ad8 100%);
 }
 
